@@ -1,0 +1,1 @@
+Native ACPI files for Lenovo G50-70.
