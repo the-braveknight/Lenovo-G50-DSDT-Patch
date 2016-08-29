@@ -170,6 +170,13 @@
 			<key>Generate</key>
 			<false/>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>MCFG</string>
+			</dict>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
