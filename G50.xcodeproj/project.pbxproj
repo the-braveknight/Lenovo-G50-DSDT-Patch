@@ -15,6 +15,8 @@
 		B818FE241D5BD78E00489224 /* SSDT-CX20751.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-CX20751.dsl"; sourceTree = "<group>"; };
 		B818FE251D5BD7A500489224 /* install_tools.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_tools.sh; sourceTree = "<group>"; };
 		B818FE261D5BD7B000489224 /* update_config.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_config.sh; sourceTree = "<group>"; };
+		B8AAEC0E1D74A2860096BC78 /* Backlight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Backlight.plist; path = backlight/Backlight.plist; sourceTree = "<group>"; };
+		B8AAEC0F1D74A2860096BC78 /* patch_backlight.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = patch_backlight.sh; path = backlight/patch_backlight.sh; sourceTree = "<group>"; };
 		ED3F518A1A2029DE0060691A /* install_downloads.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_downloads.sh; sourceTree = "<group>"; };
 		ED3F518B1A2029DE0060691A /* download.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
 		ED48DF001B4CCCC800BDDC62 /* SSDT-HACK.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-HACK.dsl"; sourceTree = "<group>"; };
@@ -37,11 +39,12 @@
 				B818FE261D5BD7B000489224 /* update_config.sh */,
 				ED48DF001B4CCCC800BDDC62 /* SSDT-HACK.dsl */,
 				B818FE241D5BD78E00489224 /* SSDT-CX20751.dsl */,
-				84B540381ACB34B600D8ABAE /* Audio */,
+				84B540381ACB34B600D8ABAE /* audio */,
+				B8AAEC101D74A28A0096BC78 /* backlight */,
 			);
 			sourceTree = "<group>";
 		};
-		84B540381ACB34B600D8ABAE /* Audio */ = {
+		84B540381ACB34B600D8ABAE /* audio */ = {
 			isa = PBXGroup;
 			children = (
 				84490D5D1A14945B000E1BFB /* patch_hda.sh */,
@@ -49,7 +52,16 @@
 				EDC7F9421B4C64FA00B49451 /* layout3.plist */,
 				EDC7F9431B4C64FA00B49451 /* Platforms.plist */,
 			);
-			name = Audio;
+			name = audio;
+			sourceTree = "<group>";
+		};
+		B8AAEC101D74A28A0096BC78 /* backlight */ = {
+			isa = PBXGroup;
+			children = (
+				B8AAEC0F1D74A2860096BC78 /* patch_backlight.sh */,
+				B8AAEC0E1D74A2860096BC78 /* Backlight.plist */,
+			);
+			name = backlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
