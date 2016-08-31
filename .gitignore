@@ -1,2 +1,4 @@
-
 .DS_Store
+build/*.aml
+z50.xcodeproj/xuserdata
+z50.xcodeproj/project.xcworkspace/xcuserdata
