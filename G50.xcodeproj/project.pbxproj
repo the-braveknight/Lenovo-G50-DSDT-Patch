@@ -12,7 +12,6 @@
 		84490D5D1A14945B000E1BFB /* patch_hda.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = patch_hda.sh; sourceTree = "<group>"; };
 		8455352818E65265001ADBFD /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		8467C38E1A23A9FC00FCF396 /* mount_efi.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mount_efi.sh; sourceTree = "<group>"; };
-		B818FE241D5BD78E00489224 /* SSDT-CX20751.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-CX20751.dsl"; sourceTree = "<group>"; };
 		B818FE251D5BD7A500489224 /* install_tools.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_tools.sh; sourceTree = "<group>"; };
 		B818FE261D5BD7B000489224 /* update_config.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_config.sh; sourceTree = "<group>"; };
 		B8AAEC0E1D74A2860096BC78 /* Backlight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Backlight.plist; path = backlight/Backlight.plist; sourceTree = "<group>"; };
@@ -38,7 +37,6 @@
 				ED3F518A1A2029DE0060691A /* install_downloads.sh */,
 				B818FE261D5BD7B000489224 /* update_config.sh */,
 				ED48DF001B4CCCC800BDDC62 /* SSDT-HACK.dsl */,
-				B818FE241D5BD78E00489224 /* SSDT-CX20751.dsl */,
 				84B540381ACB34B600D8ABAE /* audio */,
 				B8AAEC101D74A28A0096BC78 /* backlight */,
 			);
