@@ -190,11 +190,13 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>#Inject</key>
+		<key>Inject</key>
 		<dict>
 			<key>Intel</key>
-			<false/>
+			<true/>
 		</dict>
+		<key>ig-platform-id</key>
+		<string>0x0a260006</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
