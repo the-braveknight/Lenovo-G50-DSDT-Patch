@@ -1,4 +1,4 @@
-// USB configuration for Lenovo G50-70/G40-70 laptops
+// USB configuration for Lenovo Z50-70/Z40-70 laptops
 
 DefinitionBlock ("", "SSDT", 2, "hack", "USB", 0)
 {
