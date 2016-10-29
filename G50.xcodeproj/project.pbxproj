@@ -26,6 +26,7 @@
 		B86EA1E01DA81AB300D3E2E3 /* SSDT-XOSI.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "SSDT-XOSI.dsl"; path = "hotpatch/SSDT-XOSI.dsl"; sourceTree = "<group>"; };
 		B8AAEC0E1D74A2860096BC78 /* Backlight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Backlight.plist; path = backlight/Backlight.plist; sourceTree = "<group>"; };
 		B8AAEC0F1D74A2860096BC78 /* patch_backlight.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = patch_backlight.sh; path = backlight/patch_backlight.sh; sourceTree = "<group>"; };
+		B8B0B0DC1DC4FDD6000FC6AE /* SSDT-GPRW.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "SSDT-GPRW.dsl"; path = "hotpatch/SSDT-GPRW.dsl"; sourceTree = "<group>"; };
 		B8F92A7C1D99F09A004A0E72 /* prepare_usb.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prepare_usb.sh; sourceTree = "<group>"; };
 		ED3F518A1A2029DE0060691A /* install_downloads.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_downloads.sh; sourceTree = "<group>"; };
 		ED3F518B1A2029DE0060691A /* download.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 				B84B692B1DC4A88C00F44340 /* SSDT-PS2K.dsl */,
 				B86EA1DD1DA81AB300D3E2E3 /* SSDT-AMD.dsl */,
 				B86EA1DF1DA81AB300D3E2E3 /* SSDT-USB.dsl */,
+				B8B0B0DC1DC4FDD6000FC6AE /* SSDT-GPRW.dsl */,
 				B86EA1E01DA81AB300D3E2E3 /* SSDT-XOSI.dsl */,
 			);
 			name = hotpatch;
