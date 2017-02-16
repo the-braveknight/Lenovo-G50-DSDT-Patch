@@ -1,7 +1,7 @@
 # makefile
 
 #
-# Patches/Installs/Builds DSDT patches for Lenovo Z50-70
+# Patches/Installs/Builds DSDT patches for Lenovo G50-70/G40-70
 #
 # Created by RehabMan, modified by the-braveknight
 #
