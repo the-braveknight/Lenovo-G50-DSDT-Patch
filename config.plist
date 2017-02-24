@@ -4,6 +4,21 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT.aml</string>
+			<string>SSDT-AMD.aml</string>
+			<string>SSDT-GPRW.aml</string>
+			<string>SSDT-HDAU.aml</string>
+			<string>SSDT-HDEF.aml</string>
+			<string>SSDT-IGPU.aml</string>
+			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-PS2K.aml</string>
+			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-USB.aml</string>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-BATT.aml</string>
+		</array>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
