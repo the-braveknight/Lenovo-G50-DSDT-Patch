@@ -61,10 +61,12 @@ DefinitionBlock("", "SSDT", 2, "hack", "AMD", 0)
         External(LPCB.EC0, DeviceObj)
         Scope(LPCB.EC0)
         {
+            OperationRegion(ECR3, EmbeddedControl, 0x00, 0xFF)
+            
             External(XREG, MethodObj)
             External(GATY, FieldUnitObj)
             External(\ECON, FieldUnitObj)
-            Method (_REG, 2, NotSerialized)  // _REG: Region Availability
+            Method (_REG, 2)
             {
                 XREG(Arg0, Arg1)
                 If(Arg0 == 3 && Arg1 == 1)
