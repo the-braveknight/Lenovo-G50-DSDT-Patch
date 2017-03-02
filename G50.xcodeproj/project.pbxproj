@@ -27,6 +27,7 @@
 		B8AAEC0E1D74A2860096BC78 /* Backlight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Backlight.plist; path = backlight/Backlight.plist; sourceTree = "<group>"; };
 		B8AAEC0F1D74A2860096BC78 /* patch_backlight.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = patch_backlight.sh; path = backlight/patch_backlight.sh; sourceTree = "<group>"; };
 		B8B0B0DC1DC4FDD6000FC6AE /* SSDT-GPRW.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "SSDT-GPRW.dsl"; path = "hotpatch/SSDT-GPRW.dsl"; sourceTree = "<group>"; };
+		B8C6D3221E688EF800D292CA /* patch_edid.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = patch_edid.sh; sourceTree = "<group>"; };
 		B8F92A7C1D99F09A004A0E72 /* prepare_usb.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prepare_usb.sh; sourceTree = "<group>"; };
 		ED3F518A1A2029DE0060691A /* install_downloads.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_downloads.sh; sourceTree = "<group>"; };
 		ED3F518B1A2029DE0060691A /* download.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 				B818FE251D5BD7A500489224 /* install_tools.sh */,
 				ED3F518A1A2029DE0060691A /* install_downloads.sh */,
 				B818FE261D5BD7B000489224 /* update_config.sh */,
+				B8C6D3221E688EF800D292CA /* patch_edid.sh */,
 				B86EA1E11DA81ABB00D3E2E3 /* hotpatch */,
 				B86EA1D61DA81A8D00D3E2E3 /* install_usb */,
 				84B540381ACB34B600D8ABAE /* audio */,
