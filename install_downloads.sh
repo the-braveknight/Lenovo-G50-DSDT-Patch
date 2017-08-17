@@ -176,8 +176,8 @@ if [ $? -ne 0 ]; then
     fi
     # this guide does not use BrcmFirmwareData.kext
     $SUDO rm -Rf $SLE/BrcmFirmwareData.kext $KEXTDEST/BrcmFirmwareData.kext
-    # now using IntelBacklight.kext instead of ACPIBacklight.kext
-    $SUDO rm -Rf $SLE/ACPIBacklight.kext $KEXTDEST/ACPIBacklight.kext
+    # remove IntelBacklight.kext, IntelBacklight.kext is broken in 10.12.4+, now using AppleBacklight.kext instead
+    $SUDO rm -Rf $SLE/IntelBacklight.kext $KEXTDEST/IntelBacklight.kext
     # since EHCI #1 is disabled, FakePCIID_XHCIMux.kext cannot be used
     $SUDO rm -Rf $KEXTDEST/FakePCIID_XHCIMux.kext
     # deal with some renames
@@ -227,6 +227,12 @@ install_kext AppleHDA_$HDA.kext
     #    $SUDO rm -Rf $SLE/ACPIBacklight.kext
     #fi
 #fi
+
+# create & install AppleBacklightInjector.kext
+cd ./backlight
+./patch_backlight.sh
+install_kext AppleBacklightInjector.kext
+cd ..
 
 #check_directory *.kext
 #if [ $? -ne 0 ]; then
